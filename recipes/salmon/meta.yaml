@@ -1,4 +1,4 @@
-{% set version="1.10.0" %}
+{% set version="1.10.2" %}
 
 package:
   name: salmon
@@ -9,7 +9,7 @@ build:
 
 source:
   url: https://github.com/COMBINE-lab/salmon/archive/v{{ version }}.tar.gz
-  sha256: fd8039c20f8dc717d414c89d32ce80a37b1cf4fda2eb9dba839adedd33a4fa3a
+  sha256: 976989182160fef3afb4429ee8b85d8dd39ed6ca212bb14d6a65cde0e985fb98
 
 
 requirements:

@@ -1,4 +1,4 @@
-{% set version = "0.2.18" %}
+{% set version = "0.2.26" %}
 
 package:
   name: bionumpy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/bionumpy/bionumpy/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 82c29c5762ca568c2ea4891d36120c00d79a7b39695e9315e89a331ba0323ca7
+  sha256: 8b3e332b86d301a0bc0d5228fab234147ff06c4709fcfb28d125bf010eb8d4ea
   
 build:
   noarch: python

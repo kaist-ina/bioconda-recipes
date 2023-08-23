@@ -1,13 +1,13 @@
 package:
   name: fwdpy11
-  version: "0.19.3"
+  version: "0.21.0"
 
 source:
-  url: https://files.pythonhosted.org/packages/51/9a/97a5e8f5d564dd578fa51584f93928a41cdd21613797a62741dde6ca6cdf/fwdpy11-0.19.3.tar.gz
-  sha256: 31da606ab316918bab7c160ab4789d21f590204e5bb438ed6482eaa8578d08ab
+  url: https://files.pythonhosted.org/packages/6e/1b/241bdd1278cb9077d81064bd443159ed07962dbacb513388e80d1a047e93/fwdpy11-0.21.0.tar.gz
+  sha256: cbf5cd42411146e58874baf37b32f3e7a90b5ba18336b73c1be995bd41bbac98
 
 build:
-  skip: True # [py27 or py<37]
+  skip: True # [py27 or py<38]
   number: 0
 
 requirements:
@@ -22,7 +22,7 @@ requirements:
     - python
     - pip
     - numpy >=1.20
-    - pybind11 ==2.9.1
+    - pybind11 ==2.10.0
     - tskit >=0.5
     - gsl
     - openblas
